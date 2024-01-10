@@ -26,4 +26,4 @@ jobs:
           app-name: 'cipprepair' # Change this to your function app name (eg cippdh4ch)
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9B983C5AD3D9468DBFF8234A33EB3B2C }} # Change this to your repository secret name
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5A8676A1EA3145A299369631BA6F9089 }} # Change this to your repository secret name
